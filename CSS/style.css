@@ -1,0 +1,125 @@
+html, body{
+    height:100%;
+    width:100%;
+    margin:0px;
+}
+.main{
+    height:100%;
+    width:100%;
+    display:grid;
+    grid-template-columns:1fr;
+    grid-template-rows:1fr;
+    justify-items:center;
+    align-items:center;
+    background:linear-gradient(#979fb6,#aec2ff);
+}
+.menu{
+    height:90%;
+    width:65%;
+    background-color:#dfddc2;
+    display:grid;
+    justify-items:center;
+    align-items:center;
+    grid-template-columns:1fr;
+    grid-template-rows:6fr;
+    border-radius:6vmin;
+}
+.games{
+    height:100%;
+    width:100%;
+    display:grid;
+    justify-items:center;
+    align-items:center;
+    grid-template-columns:repeat(2, 1fr);
+    grid-template-rows:repeat(2, 1fr);
+}
+.games > div{
+    height:100%;
+    width:100%;
+    display:grid;
+    grid-template-columns:1fr;
+    grid-template-rows:1fr;
+    justify-items:center;
+    align-items:center;
+}
+.gameDiv img{
+    width:75%;
+    height:75%;
+    border-radius:3vmin;
+}
+.ball{
+    margin-left:10%;
+    box-shadow:0vmin 0vmin 2vmin 0.8vmin #2c768d;
+}
+.count{
+    margin-right:10%;
+    box-shadow:0vmin 0vmin 2vmin 0.8vmin #b84139;
+}
+.cards{
+    margin-left:10%;
+    box-shadow:0vmin 0vmin 2vmin 0.8vmin #5f3f88;
+}
+.casino{
+    margin-right:10%;
+    box-shadow:0vmin 0vmin 2vmin 0.8vmin #ffae00;
+    background-color: #f5cd78;
+}
+@media (1240px <= width <= 1400px) {
+    .menu{
+        height:80%;
+    }
+}
+@media (970px <= width <= 1240px) {
+    .menu{
+        height:60%;
+        width:70%;
+    }
+}
+@media (800px <= width <= 970px) {
+    .menu{
+        height:50%;
+        width:80%;
+    }
+}
+@media (510px <= width <= 800px) {
+    .menu{
+        height:50%;
+        width:90%;
+    }
+}
+@media (100px <= width <= 510px) {
+    .menu{
+        height:30%;
+        width:100%;
+    }
+}
+@media (500px <= height <= 660px) {
+    .menu{
+        height:90%;
+        width:60%;
+    }
+}
+@media (455px <= height <= 500px) {
+    .menu{
+        height:95%;
+        width:50%;
+    }
+}
+@media (350px <= height <= 455px) {
+    .menu{
+        height:95%;
+        width:45%;
+    }
+}
+@media (280px <= height <= 350px) {
+    .menu{
+        height:95%;
+        width:35%;
+    }
+}
+@media (100px <= height <= 280px) {
+    .menu{
+        height:95%;
+        width:25%;
+    }
+}
